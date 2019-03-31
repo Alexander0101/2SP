@@ -1,0 +1,338 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  color: #fff;
+}
+body * {
+  box-sizing: border-box;
+}
+img {
+  width: auto;
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+h1, h2, h3 {
+  margin: 0;
+}
+
+.wrapper {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1440px) {
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .header {
+    background: #000 url('../images/img-bg-bfrlunar.png') 0 0 no-repeat;
+  }
+
+  .nav {
+    padding: 0 200px 0 150px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .banner {
+    position: relative;
+    background: url('../images/img-geometry_il_1.svg') no-repeat;
+    background-position: -5% -10%;
+  }
+
+  .geometry {
+    position: absolute;
+    left: -46px;
+    bottom: -180px;
+    z-index: 2;
+  }
+
+  .bg-light {
+    background: url('../images/img-light.svg') no-repeat;
+    background-position: 92% -18%;
+  }
+
+  .banner h1 {
+    padding: 88px 0;
+    margin-left: 344px;
+    width: 520px;
+    font-size: 82px;
+    font-weight: 400;
+    line-height: 0.98;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+  }
+
+  .banner h1 span {
+    font-weight: bold;
+    letter-spacing: 1.6px;
+    background: linear-gradient(to left, #00ffff, #fe86aa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .banner-slogan {
+    margin-left: 700px;
+    width: 30%;
+  }
+
+  .banner-slogan p {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.15;
+  }
+
+  .btn {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1.8px;
+    color: #000;
+    padding: 22px 76px;
+    border: none;
+    background-image: linear-gradient(to left, #00ffff, #fe86aa);
+    cursor: pointer;
+  }
+
+  .banner-text {
+    margin: 120px 245px 0;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .column {
+    width: 340px;
+  }
+
+  .column h2 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.15;
+    letter-spacing: 0.4px;
+  }
+
+  .column p {
+    margin-top: 40px;
+    line-height: 1.69;
+    letter-spacing: 0.3px;
+    color: #c6c6c6;
+  }
+
+  .programm {
+    position: relative;
+    background-image: linear-gradient(to right, #fe86aa, #00d7df 100%);
+  }
+
+  .programm img {
+    position: absolute;
+    top: -14%;
+    right: 0;
+  }
+
+  .about-programm {
+    padding: 60px 0 90px 245px;
+  }
+
+  .about-programm h2 {
+    margin-bottom: 43px;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.25;
+    letter-spacing: 0.4px;
+  }
+
+  .about-programm h3 {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+  }
+
+  .about-programm p {
+    margin-top: 0;
+    line-height: 1.56;
+    letter-spacing: 0.3px;
+  }
+
+  .email {
+    margin-top: 60px;
+  }
+
+  .email input {
+    font-size: 18px;
+    margin-right: 24px;
+    padding: 22px 24px;
+    width: 460px;
+    color: #000;
+    border: none;
+  }
+
+  .btn-black {
+    color: #fff;
+    background: #000;
+  }
+
+  .tourist {
+    padding: 120px 130px;
+    background: #000;
+  }
+
+  .tourist h2 {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.25;
+    letter-spacing: 0.4px;
+  }
+
+  .tourist-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .tourist-item {
+    display: flex;
+    align-items: center;
+    width: 30%;
+  }
+
+  .tourist-item img {
+    margin-right: 24px;
+  }
+
+  .plus{
+    padding: 50px 0 55px;
+    background-image: linear-gradient(to left, #fe86aa, #00d7df 100%);
+  }
+
+  .plus-img {
+    position: relative;
+  }
+
+  .plus-img img {
+    position: absolute;
+    top: -44px;
+    left: 75px;
+  }
+
+  .plus-text {
+    text-align: center;
+    width: 330px;
+    margin: 21px auto;
+  }
+
+  .plus-text h2 {
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.25;
+    letter-spacing: 0.4px;
+  }
+
+  .plus-text p {
+    line-height: 1.69;
+    letter-spacing: 0.3px;
+  }
+
+  .plus-text span {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 6px;
+  }
+
+  .started {
+    padding: 120px 210px 142px 245px;
+    background: #000 url('../images/Telescope Vector.svg') 18% 100% no-repeat;
+  }
+
+  .started-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .item-name h2 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.25;
+    letter-spacing: 0.4px;
+  }
+
+  .item-name img {
+    margin-left: 114px;
+  }
+
+  .form {
+    width: 556px;
+    height: 663px;
+    background: #141b37;
+  }
+
+  .footer {
+    padding: 60px 0 20px;
+    background: #1b2537;
+  }
+
+  .footer-text {
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  .nav-flex {
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-item a {
+    font-size: 16px;
+    letter-spacing: -0.3px;
+    color: #c4c4c4;
+  }
+
+  .nav-item a:hover {
+    color: #fff;
+  }
+
+  .nav-item a img {
+    margin: 0 5px;
+  }
+
+  .rights {
+    margin-top: 70px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 3.33;
+    letter-spacing: 0.2px;
+    color: #909090;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
